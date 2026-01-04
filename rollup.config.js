@@ -35,5 +35,12 @@ export default {
 	    ],
 	    exclude: '',
 	}),
+	copy({
+	    rootDir: 'assets',
+	    patterns: [
+		'*',
+            ],
+	    exclude: '',
+	}),
     ],
 }
